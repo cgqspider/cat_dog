@@ -45,7 +45,7 @@ var model = undefined;
 
 
 async function initialize() {
-    model = await tf.loadLayersModel('http://127.0.0.1:5500/model/model.json');
+    model = await tf.loadLayersModel('https://cgqspider.github.io/cat_dog/model/model.json');
 }
 
 async function predict() {
